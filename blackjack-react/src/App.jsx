@@ -14,6 +14,7 @@ const router = createBrowserRouter([
   path: "/",
   errorElement: <ErrorPage/>,
   // loader: () => {return redirect("/auth")},// check if logged in 
+  //fgdgd
   },
   {
     path: "auth",
