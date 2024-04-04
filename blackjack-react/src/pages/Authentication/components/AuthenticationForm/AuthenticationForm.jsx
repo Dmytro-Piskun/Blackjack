@@ -1,17 +1,20 @@
 import { Form } from "react-router-dom";
+import './AuthenticationForm.css'
+import AuthenticationInput from "../AuthenticationInput/AuthenticationInput";
+import AuthenticationButton from '../AuthenticationButton/AuthenticationButton'
+import AuthenticationCheckbox from "../AuthenticationСheckbox/AuthenticationCheckBox";
  
-const AuthenticationForm = (props) => {
-    return (<>
-        <Form method="post" className="auth-form">
-            <h1>Login</h1>
-            <p>sometext</p>
-            <label htmlFor="email">Email</label>
-            <input type="email" name="email" id="email" />
-            <label htmlFor="password">Password</label>
-            <input type="password" name="password" id="password" />
+const AuthenticationForm = ({isLogin}) => {
+    return (
+        <Form method="post" className="authentication-form">
+            <h1>Welcome Back</h1>
+            <h2>Ready to play?</h2>
+            <AuthenticationInput label={"Email"} type={"email"} placeholder="Enter your email"/>
+            <AuthenticationInput label={"Password"} type={"password"} placeholder="Enter your password"/>
+            <AuthenticationCheckbox label={"Remember me"}/>
+            <AuthenticationButton title={"Sign in →"}/>
         </Form>
-        {/* {isLogin ? "bj" : null} */}
-    </>)
+  )
 };
 
 export default AuthenticationForm;

@@ -11,12 +11,7 @@ const Authentification = (props) => {
 
     return (
         <main className="authentication-page">
-            <section className="authentication-page-content">
-            <AuthenticationForm></AuthenticationForm>
-            </section>
-            <section className="authentication-page-description-container">
-                <div className="authentication-page-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis porro eveniet, ipsam atque nihil rem, modi aliquid perferendis quibusdam temporibus eaque consequatur nesciunt, laboriosam aperiam est magni! Porro, tenetur suscipit.</div>
-            </section>
+            <AuthenticationForm isLogin></AuthenticationForm>
         </main>
     )
 };

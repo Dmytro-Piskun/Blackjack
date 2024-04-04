@@ -1,0 +1,28 @@
+.authentication-form{
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    padding: 3rem;
+    font-weight: 300;
+    color: #7E8797;
+    min-width: 23rem;
+}
+.authentication-form>h1{
+margin: 0;
+font-weight: 300;
+color: #3D4656;
+font-size: 1.8rem;
+margin-bottom: 0.8rem;
+}
+.authentication-form>h2{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+.authentication-form input{
+    margin-bottom: 0.9rem;
+}
+.authentication-form input{
+    margin-bottom: 0.9rem;
+}
+

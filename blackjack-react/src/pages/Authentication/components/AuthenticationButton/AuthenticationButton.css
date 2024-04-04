@@ -1,0 +1,24 @@
+.authentication-button{
+    border-radius: 0.7rem;
+    display: block;
+    height: 2.5rem;
+    margin-bottom: 0.9rem;
+    width: 100%;
+    transition: 0.2s;
+    border: none;
+    background-color: #C8DEFF;
+    margin-top: 2.1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #7E8797;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.066);
+cursor: pointer;
+}
+.authentication-button:hover {
+    background-color: #bcd5fc; 
+}
+.authentication-button:active {
+    background-color: #a1c4fc; 
+}

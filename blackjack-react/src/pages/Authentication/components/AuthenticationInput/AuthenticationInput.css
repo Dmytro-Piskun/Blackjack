@@ -1,0 +1,44 @@
+:root {
+    --input-color: #1e90ff;
+}
+
+.authentification-input {}
+
+.authentification-input input {
+    border: #c0c1c2 solid 0.0925rem;
+    border-radius: 0.7rem;
+    display: block;
+    padding: 0.7rem;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.authentification-input input::placeholder {
+    font-size: 0.8rem;
+    color: #7E8797;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    transition: 0.1s;
+}
+.authentification-input:focus-within label {
+    color: var(--input-color);
+}
+
+.authentification-input:focus-within input::placeholder {
+    color: #ffffff
+}
+
+.authentification-input input:hover {
+    border-color: #8ac5ff;
+}
+
+.authentification-input input:focus {
+    border-color: var(--input-color);
+    outline: none;
+}
+
+.authentification-input label {
+    display: block;
+    margin-bottom: 0.7rem;
+    transition: 0.2s;
+}
