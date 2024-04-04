@@ -1,0 +1,32 @@
+.authentication-page {
+    display: flex;
+
+    
+}
+
+.authentication-page-content {
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    width: 50%;
+}
+
+.authentication-page-description-container {
+    background-image: url(../../assets/AuthBackground.jpg);
+    min-height: 100vh;
+    width: 50%;
+    background-size: 10%;
+    background-repeat: repeat;
+    background-position: center;
+    padding: 60px;    
+    color: white;
+}
+
+.authentication-page-description {
+    padding: 20px;
+    height: 100%;
+    background: rgba(255, 154, 154, 0.82);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+}
