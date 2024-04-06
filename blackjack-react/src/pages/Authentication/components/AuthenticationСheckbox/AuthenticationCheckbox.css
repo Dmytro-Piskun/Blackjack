@@ -3,29 +3,33 @@
 }
 
 .authentication-checkbox label::before {
-    content: ""; 
+    content: "";
     display: inline-block;
-    width: 1.2rem; 
-    height: 1.2rem; 
-    border: #c0c1c2 solid 0.0925rem; 
-    border-radius: 0.4rem; 
-    transition: 0.2s; 
-    margin-right: 0.6rem; 
-    cursor: pointer; 
+    width: 1.2rem;
+    height: 1.2rem;
+    border: #c0c1c2 solid 0.0925rem;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    margin-right: 0.6rem;
+    cursor: pointer;
 }
+
 .authentication-checkbox label {
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     font-size: 0.8rem;
-    cursor: pointer; 
+    cursor: pointer;
+    width: 100%;
 }
 
 .authentication-checkbox {
     display: flex;
-    align-items: center; 
+    align-items: center;
     padding: 0.5rem;
     transition: 0.2s;
-    cursor: pointer; 
+    cursor: pointer;
+    margin-bottom: 1.1rem;
+
 }
 
 .authentication-checkbox:hover {
@@ -37,6 +41,7 @@
     content: "✓";
     display: flex;
     justify-content: center;
-background-color: #e9f1fc;
-border-color: var(--input-color);
+    background-color: #e9f1fc;
+    color: var(--input-color);
+    border-color: var(--input-color);
 }

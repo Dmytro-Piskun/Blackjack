@@ -4,7 +4,7 @@
     padding: 3rem;
     font-weight: 300;
     color: #7E8797;
-    min-width: 23rem;
+    width: 28rem;
 }
 .authentication-form>h1{
 margin: 0;
@@ -12,6 +12,7 @@ font-weight: 300;
 color: #3D4656;
 font-size: 1.8rem;
 margin-bottom: 0.8rem;
+animation: fadeIn 2s 1;
 }
 .authentication-form>h2{
     margin: 0;
@@ -19,10 +20,46 @@ margin-bottom: 0.8rem;
     font-weight: 300;
     margin-bottom: 2rem;
 }
-.authentication-form input{
-    margin-bottom: 0.9rem;
-}
-.authentication-form input{
+/* .authentication-form input{
     margin-bottom: 0.9rem;
 }
 
+.authentication-form>p{
+    margin: 0;
+    text-align: center;
+}
+.authentication-form>p>a{
+    color: #5C8DD8;
+    text-decoration: none;
+}
+.authentication-form>p>a:hover{
+    color: #5288da;
+    text-decoration: underline;
+}
+.authentication-form>a{
+    color: #5288da;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.authentication-form>a:hover{
+    color: #5288da;
+    text-decoration: underline;
+} */
+
+.authentication-form-or-line{
+    font-size: 0.8rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    background-clip: text;
+}
+.authentication-form-or-line::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #bfc8d6;
+    width: 100%;
+    height: 0.0925rem;
+}

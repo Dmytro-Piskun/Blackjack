@@ -8,7 +8,7 @@ const AuthenticationInput = ({label,type,name=type,id=name,className,...props}) 
   return (
     <div className={classes}>
     {label?<label htmlFor={id}>{label}</label>:null}
-      <input type={type} name={name} id={id} autoComplete={type==="password"?"on":null}{...props} />
+      <input type={type} name={name} id={id} {...props} />
     </div>
   )
 };

@@ -11,7 +11,7 @@ const Authentification = (props) => {
 
     return (
         <main className="authentication-page">
-            <AuthenticationForm isLogin></AuthenticationForm>
+            <AuthenticationForm isLogin={isLogin}></AuthenticationForm>
         </main>
     )
 };
